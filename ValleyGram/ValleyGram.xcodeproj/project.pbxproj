@@ -1,0 +1,669 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		166EA7EFBDD3BE34136B2561 /* Pods_ValleyGram.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0AC16EEB90E43DCD8F2A745C /* Pods_ValleyGram.framework */; };
+		A7874D8C1DF0557D00E95E38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7874D8B1DF0557D00E95E38 /* AppDelegate.swift */; };
+		A7874D911DF0557D00E95E38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7874D8F1DF0557D00E95E38 /* Main.storyboard */; };
+		A7874D941DF0557D00E95E38 /* ValleyGram.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7874D921DF0557D00E95E38 /* ValleyGram.xcdatamodeld */; };
+		A7874D961DF0557D00E95E38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7874D951DF0557D00E95E38 /* Assets.xcassets */; };
+		A7874D991DF0557D00E95E38 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7874D971DF0557D00E95E38 /* LaunchScreen.storyboard */; };
+		A7874DA41DF0557D00E95E38 /* ValleyGramTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7874DA31DF0557D00E95E38 /* ValleyGramTests.swift */; };
+		A7874DAF1DF0557D00E95E38 /* ValleyGramUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7874DAE1DF0557D00E95E38 /* ValleyGramUITests.swift */; };
+		A7874DBE1DF05B3100E95E38 /* ValleyGramViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7874DBD1DF05B3100E95E38 /* ValleyGramViewController.swift */; };
+		A7874DC11DF05E2B00E95E38 /* ValleyGramImageCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7874DC01DF05E2B00E95E38 /* ValleyGramImageCollectionViewCell.swift */; };
+		A7874DC41DF0816600E95E38 /* ValleyGramImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7874DC31DF0816600E95E38 /* ValleyGramImage.swift */; };
+		A7874DC71DF0831300E95E38 /* ValleyGramInteractorAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7874DC61DF0831300E95E38 /* ValleyGramInteractorAPI.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7874DA01DF0557D00E95E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7874D801DF0557C00E95E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7874D871DF0557D00E95E38;
+			remoteInfo = ValleyGram;
+		};
+		A7874DAB1DF0557D00E95E38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7874D801DF0557C00E95E38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7874D871DF0557D00E95E38;
+			remoteInfo = ValleyGram;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0AC16EEB90E43DCD8F2A745C /* Pods_ValleyGram.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ValleyGram.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		45A24446CB8E3126988D69A5 /* Pods-ValleyGram.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValleyGram.release.xcconfig"; path = "Pods/Target Support Files/Pods-ValleyGram/Pods-ValleyGram.release.xcconfig"; sourceTree = "<group>"; };
+		79B90ECA25AB05A69A6A8C50 /* Pods-ValleyGram.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ValleyGram.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ValleyGram/Pods-ValleyGram.debug.xcconfig"; sourceTree = "<group>"; };
+		A7874D881DF0557D00E95E38 /* ValleyGram.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ValleyGram.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7874D8B1DF0557D00E95E38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7874D901DF0557D00E95E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7874D931DF0557D00E95E38 /* ValleyGram.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ValleyGram.xcdatamodel; sourceTree = "<group>"; };
+		A7874D951DF0557D00E95E38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7874D981DF0557D00E95E38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7874D9A1DF0557D00E95E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7874D9F1DF0557D00E95E38 /* ValleyGramTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValleyGramTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7874DA31DF0557D00E95E38 /* ValleyGramTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValleyGramTests.swift; sourceTree = "<group>"; };
+		A7874DA51DF0557D00E95E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7874DAA1DF0557D00E95E38 /* ValleyGramUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ValleyGramUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7874DAE1DF0557D00E95E38 /* ValleyGramUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ValleyGramUITests.swift; sourceTree = "<group>"; };
+		A7874DB01DF0557D00E95E38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7874DBD1DF05B3100E95E38 /* ValleyGramViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValleyGramViewController.swift; sourceTree = "<group>"; };
+		A7874DC01DF05E2B00E95E38 /* ValleyGramImageCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValleyGramImageCollectionViewCell.swift; sourceTree = "<group>"; };
+		A7874DC31DF0816600E95E38 /* ValleyGramImage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValleyGramImage.swift; sourceTree = "<group>"; };
+		A7874DC61DF0831300E95E38 /* ValleyGramInteractorAPI.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ValleyGramInteractorAPI.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7874D851DF0557D00E95E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				166EA7EFBDD3BE34136B2561 /* Pods_ValleyGram.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7874D9C1DF0557D00E95E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7874DA71DF0557D00E95E38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21CD9410D5E1E56BFB7A1E45 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0AC16EEB90E43DCD8F2A745C /* Pods_ValleyGram.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2A029F71D3AD607A5FE51483 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				79B90ECA25AB05A69A6A8C50 /* Pods-ValleyGram.debug.xcconfig */,
+				45A24446CB8E3126988D69A5 /* Pods-ValleyGram.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A7874D7F1DF0557C00E95E38 = {
+			isa = PBXGroup;
+			children = (
+				A7874D8A1DF0557D00E95E38 /* ValleyGram */,
+				A7874DA21DF0557D00E95E38 /* ValleyGramTests */,
+				A7874DAD1DF0557D00E95E38 /* ValleyGramUITests */,
+				A7874D891DF0557D00E95E38 /* Products */,
+				2A029F71D3AD607A5FE51483 /* Pods */,
+				21CD9410D5E1E56BFB7A1E45 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A7874D891DF0557D00E95E38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7874D881DF0557D00E95E38 /* ValleyGram.app */,
+				A7874D9F1DF0557D00E95E38 /* ValleyGramTests.xctest */,
+				A7874DAA1DF0557D00E95E38 /* ValleyGramUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7874D8A1DF0557D00E95E38 /* ValleyGram */ = {
+			isa = PBXGroup;
+			children = (
+				A7874DC51DF082CC00E95E38 /* InteractorAPI */,
+				A7874DC21DF0812B00E95E38 /* Models */,
+				A7874DBF1DF05DF300E95E38 /* View Cells */,
+				A7874DBC1DF05B0600E95E38 /* ViewControllers */,
+				A7874D8B1DF0557D00E95E38 /* AppDelegate.swift */,
+				A7874D8F1DF0557D00E95E38 /* Main.storyboard */,
+				A7874D951DF0557D00E95E38 /* Assets.xcassets */,
+				A7874D971DF0557D00E95E38 /* LaunchScreen.storyboard */,
+				A7874D9A1DF0557D00E95E38 /* Info.plist */,
+				A7874D921DF0557D00E95E38 /* ValleyGram.xcdatamodeld */,
+			);
+			path = ValleyGram;
+			sourceTree = "<group>";
+		};
+		A7874DA21DF0557D00E95E38 /* ValleyGramTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7874DA31DF0557D00E95E38 /* ValleyGramTests.swift */,
+				A7874DA51DF0557D00E95E38 /* Info.plist */,
+			);
+			path = ValleyGramTests;
+			sourceTree = "<group>";
+		};
+		A7874DAD1DF0557D00E95E38 /* ValleyGramUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7874DAE1DF0557D00E95E38 /* ValleyGramUITests.swift */,
+				A7874DB01DF0557D00E95E38 /* Info.plist */,
+			);
+			path = ValleyGramUITests;
+			sourceTree = "<group>";
+		};
+		A7874DBC1DF05B0600E95E38 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A7874DBD1DF05B3100E95E38 /* ValleyGramViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		A7874DBF1DF05DF300E95E38 /* View Cells */ = {
+			isa = PBXGroup;
+			children = (
+				A7874DC01DF05E2B00E95E38 /* ValleyGramImageCollectionViewCell.swift */,
+			);
+			name = "View Cells";
+			sourceTree = "<group>";
+		};
+		A7874DC21DF0812B00E95E38 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				A7874DC31DF0816600E95E38 /* ValleyGramImage.swift */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		A7874DC51DF082CC00E95E38 /* InteractorAPI */ = {
+			isa = PBXGroup;
+			children = (
+				A7874DC61DF0831300E95E38 /* ValleyGramInteractorAPI.swift */,
+			);
+			name = InteractorAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7874D871DF0557D00E95E38 /* ValleyGram */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7874DB31DF0557D00E95E38 /* Build configuration list for PBXNativeTarget "ValleyGram" */;
+			buildPhases = (
+				8214316408F9EFD29634FC97 /* [CP] Check Pods Manifest.lock */,
+				A7874D841DF0557D00E95E38 /* Sources */,
+				A7874D851DF0557D00E95E38 /* Frameworks */,
+				A7874D861DF0557D00E95E38 /* Resources */,
+				BA42B6FFEA39CA57CD506028 /* [CP] Embed Pods Frameworks */,
+				B029B154F9096459DE8056BC /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ValleyGram;
+			productName = ValleyGram;
+			productReference = A7874D881DF0557D00E95E38 /* ValleyGram.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7874D9E1DF0557D00E95E38 /* ValleyGramTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7874DB61DF0557D00E95E38 /* Build configuration list for PBXNativeTarget "ValleyGramTests" */;
+			buildPhases = (
+				A7874D9B1DF0557D00E95E38 /* Sources */,
+				A7874D9C1DF0557D00E95E38 /* Frameworks */,
+				A7874D9D1DF0557D00E95E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7874DA11DF0557D00E95E38 /* PBXTargetDependency */,
+			);
+			name = ValleyGramTests;
+			productName = ValleyGramTests;
+			productReference = A7874D9F1DF0557D00E95E38 /* ValleyGramTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7874DA91DF0557D00E95E38 /* ValleyGramUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7874DB91DF0557D00E95E38 /* Build configuration list for PBXNativeTarget "ValleyGramUITests" */;
+			buildPhases = (
+				A7874DA61DF0557D00E95E38 /* Sources */,
+				A7874DA71DF0557D00E95E38 /* Frameworks */,
+				A7874DA81DF0557D00E95E38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7874DAC1DF0557D00E95E38 /* PBXTargetDependency */,
+			);
+			name = ValleyGramUITests;
+			productName = ValleyGramUITests;
+			productReference = A7874DAA1DF0557D00E95E38 /* ValleyGramUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7874D801DF0557C00E95E38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Leonardo Vinicius Kaminski Ferreira";
+				TargetAttributes = {
+					A7874D871DF0557D00E95E38 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					A7874D9E1DF0557D00E95E38 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7874D871DF0557D00E95E38;
+					};
+					A7874DA91DF0557D00E95E38 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A7874D871DF0557D00E95E38;
+					};
+				};
+			};
+			buildConfigurationList = A7874D831DF0557D00E95E38 /* Build configuration list for PBXProject "ValleyGram" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7874D7F1DF0557C00E95E38;
+			productRefGroup = A7874D891DF0557D00E95E38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7874D871DF0557D00E95E38 /* ValleyGram */,
+				A7874D9E1DF0557D00E95E38 /* ValleyGramTests */,
+				A7874DA91DF0557D00E95E38 /* ValleyGramUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7874D861DF0557D00E95E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7874D991DF0557D00E95E38 /* LaunchScreen.storyboard in Resources */,
+				A7874D961DF0557D00E95E38 /* Assets.xcassets in Resources */,
+				A7874D911DF0557D00E95E38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7874D9D1DF0557D00E95E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7874DA81DF0557D00E95E38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8214316408F9EFD29634FC97 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B029B154F9096459DE8056BC /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValleyGram/Pods-ValleyGram-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BA42B6FFEA39CA57CD506028 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ValleyGram/Pods-ValleyGram-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7874D841DF0557D00E95E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7874DC11DF05E2B00E95E38 /* ValleyGramImageCollectionViewCell.swift in Sources */,
+				A7874DBE1DF05B3100E95E38 /* ValleyGramViewController.swift in Sources */,
+				A7874D941DF0557D00E95E38 /* ValleyGram.xcdatamodeld in Sources */,
+				A7874D8C1DF0557D00E95E38 /* AppDelegate.swift in Sources */,
+				A7874DC41DF0816600E95E38 /* ValleyGramImage.swift in Sources */,
+				A7874DC71DF0831300E95E38 /* ValleyGramInteractorAPI.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7874D9B1DF0557D00E95E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7874DA41DF0557D00E95E38 /* ValleyGramTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7874DA61DF0557D00E95E38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7874DAF1DF0557D00E95E38 /* ValleyGramUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7874DA11DF0557D00E95E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7874D871DF0557D00E95E38 /* ValleyGram */;
+			targetProxy = A7874DA01DF0557D00E95E38 /* PBXContainerItemProxy */;
+		};
+		A7874DAC1DF0557D00E95E38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7874D871DF0557D00E95E38 /* ValleyGram */;
+			targetProxy = A7874DAB1DF0557D00E95E38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7874D8F1DF0557D00E95E38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7874D901DF0557D00E95E38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7874D971DF0557D00E95E38 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7874D981DF0557D00E95E38 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7874DB11DF0557D00E95E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7874DB21DF0557D00E95E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7874DB41DF0557D00E95E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 79B90ECA25AB05A69A6A8C50 /* Pods-ValleyGram.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValleyGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeonardoFerreira.ValleyGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		A7874DB51DF0557D00E95E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45A24446CB8E3126988D69A5 /* Pods-ValleyGram.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ValleyGram/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeonardoFerreira.ValleyGram;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		A7874DB71DF0557D00E95E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ValleyGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeonardoFerreira.ValleyGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValleyGram.app/ValleyGram";
+			};
+			name = Debug;
+		};
+		A7874DB81DF0557D00E95E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ValleyGramTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeonardoFerreira.ValleyGramTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ValleyGram.app/ValleyGram";
+			};
+			name = Release;
+		};
+		A7874DBA1DF0557D00E95E38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ValleyGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeonardoFerreira.ValleyGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ValleyGram;
+			};
+			name = Debug;
+		};
+		A7874DBB1DF0557D00E95E38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ValleyGramUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.LeonardoFerreira.ValleyGramUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ValleyGram;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7874D831DF0557D00E95E38 /* Build configuration list for PBXProject "ValleyGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7874DB11DF0557D00E95E38 /* Debug */,
+				A7874DB21DF0557D00E95E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7874DB31DF0557D00E95E38 /* Build configuration list for PBXNativeTarget "ValleyGram" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7874DB41DF0557D00E95E38 /* Debug */,
+				A7874DB51DF0557D00E95E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7874DB61DF0557D00E95E38 /* Build configuration list for PBXNativeTarget "ValleyGramTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7874DB71DF0557D00E95E38 /* Debug */,
+				A7874DB81DF0557D00E95E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7874DB91DF0557D00E95E38 /* Build configuration list for PBXNativeTarget "ValleyGramUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7874DBA1DF0557D00E95E38 /* Debug */,
+				A7874DBB1DF0557D00E95E38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7874D921DF0557D00E95E38 /* ValleyGram.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7874D931DF0557D00E95E38 /* ValleyGram.xcdatamodel */,
+			);
+			currentVersion = A7874D931DF0557D00E95E38 /* ValleyGram.xcdatamodel */;
+			path = ValleyGram.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7874D801DF0557C00E95E38 /* Project object */;
+}
