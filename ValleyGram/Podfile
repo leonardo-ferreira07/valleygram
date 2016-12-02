@@ -1,5 +1,5 @@
 use_frameworks!
 
 target 'ValleyGram' do
-  pod "AwesomeData", git: 'https://github.com/iOSWizards/AwesomeData.git', tag: '0.2.7'
+  pod "AwesomeData", git: 'https://github.com/iOSWizards/AwesomeData.git', tag: '0.2.8'
 end
